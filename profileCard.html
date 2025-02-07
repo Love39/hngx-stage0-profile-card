@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Ozy's Profile Card </title>
+        <link rel = "stylesheet" href="profileCard.css"/>
+        <script src = "path/to/vanilla. js"></script>
+        
+    </head>
+
+    <body>
+        <div class="profile-card">
+            <img src="profilePicture.jpg" alt = "Profile Picture" class="profile-img" data-testid="profilePicture">
+            <h2 class="profile-name" data-testid="fullName">Ozioma Love Ihezukwu</h2>
+            <h3 class="profile-desc" data-testid="jobTitle">Front-End Developer</h3>
+            <p class = "short-bio" data-testid="shortBio">An enthusiastic and resourceful Front-End Developer with proficient knowledge in HTML, CSS and JavaScript 
+                as well as the ability to create responsive web applications.
+            </p>
+            <p class = "location" data-testid="currentLocation">Abuja, FCT, Nigeria</p>
+            <div class = "email-address" data-testid="emailAddress">
+                <a href="mailto:oziomalove1212@yahoo.com" id = "email" >oziomalove1212@yahoo.com</a>
+            </div>
+
+            <div class="social-links" data-testid="socialLinks">
+                <a href="https://github.com/Love39" target="_blank" class="social-icon">GitHub</a>
+                <a href="https://www.linkedin.com/in/oziomalove" target="_blank" class="social-icon">LinkedIn</a>
+            </div>
+
+            <div class="utc-time" data-testid="currentTimeUTC">Current Time in UTC: <span id = "utc-time">Loading...</span></div>
+
+        </div>
+        <script src="profileCard.js"></script>
+
+         
+    </body>
+    
+</html>
